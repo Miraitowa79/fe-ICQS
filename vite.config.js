@@ -3,7 +3,6 @@ import react from '@vitejs/plugin-react-swc'
 import path from "path";
 
 export default defineConfig({
-  envDir: "./env",
   root: path.resolve('./'),
   plugins: [react() 
   ],
